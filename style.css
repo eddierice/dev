@@ -18,11 +18,6 @@ body {
     -webkit-appearance: none;
 }
 
-@font-face {
-    font-family: 'Blackhawk';
-    src:  url("fonts/Blackhawk.ttf") format('ttf');
-  }
-
 .hero {
     height: 100vh;
     width: 100vw;
@@ -46,8 +41,7 @@ body {
 
 .hero h2 {
     color: rgb(43, 219, 199);
-    font-size: 3rem;
-    font-family: 'Blackhawk';
+    font-size: 2rem;
 }
 
 .buttons {
