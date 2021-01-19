@@ -1,0 +1,87 @@
+body {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(56, 56, 56, 0.9), 
+      rgba(43, 219, 199, 0.3)
+    ),
+    /* bottom, image */
+    url(img/bg2.jpg);
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Blackhawk';
+    src:  url("fonts/Blackhawk.ttf") format('ttf');
+  }
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1, h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero h2 {
+    color: rgb(43, 219, 199);
+    font-size: 3rem;
+    font-family: 'Blackhawk';
+}
+
+.buttons {
+    margin: 15px auto;
+    background-color: rgb(56, 56, 56);
+    padding: 15px;
+    border-radius: 10px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons i {
+    color: rgb(43, 219, 199);
+    font-size: 2rem;
+    margin: 0px 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    body {
+        background-position: top;
+    }
+
+    .hero h1 {
+        font-size: 7rem;
+    }
+
+    .hero h2 {
+        font-size: 5rem;
+    }
+    
+    .buttons {
+      width: 35vw;
+    }
+
+    .buttons i {
+        font-size: 3rem;
+        margin: 0px 35px;
+    }
+  }
