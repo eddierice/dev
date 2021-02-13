@@ -118,6 +118,7 @@ body {
 
     .hero h2 {
         font-size: 2.5rem;
+        padding-bottom: 50px;
     }
 
     .buttons i {
