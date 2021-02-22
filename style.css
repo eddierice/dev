@@ -29,6 +29,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    letter-spacing: 1.5px;
 }
 
 .hero h1 {
@@ -39,11 +40,11 @@ body {
 
 .hero h2 {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .buttons {
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 15px;
     border-radius: 15px;
     display: flex;
@@ -63,13 +64,13 @@ body {
 }
 
 .buttons i {
-    font-size: 3rem;
+    font-size: 3.25rem;
     margin: 0px 15px;
     color: #ffffff;
 }
 
 .buttons i:hover {
-    color: #c8ff00;
+    color: #00d9ff;
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -114,11 +115,11 @@ body {
     }
 
     .hero h1 {
-        font-size: 4.5rem;
+        font-size: 6.5rem;
     }
 
     .hero h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         padding-bottom: 50px;
     }
 
