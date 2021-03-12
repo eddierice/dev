@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background-image: url("img/10-6-Server.jpg");
+    background-image: url("img/henry-co-tqu0IOMaiU8-unsplash.jpg");
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(8px) saturate(160%) contrast(45%) brightness(65%);
-    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(65%);
-    font-family: 'Bebas Neue', cursive;
+    -webkit-backdrop-filter: blur(50px) saturate(160%) contrast(45%) brightness(65%);
+    font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
     -webkit-appearance: none;
@@ -28,19 +28,22 @@ body {
 .hero h1, h2, h3 {
     margin: 0;
     padding: 0;
-    line-height: 1;
-    letter-spacing: 1.5px;
+    line-height: 1.25;
+    text-transform: uppercase;
 }
 
 .hero h1 {
     color: white;
-    font-size: 10rem;
-    font-weight: 700;
+    font-size: 8rem;
+    font-weight: 500;
+    letter-spacing: -5px;
 }
 
 .hero h2 {
-    color: #ffffff;
-    font-size: 4rem;
+    color: #b9f2ff;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 5px;
 }
 
 .buttons {
@@ -64,14 +67,24 @@ body {
 }
 
 .buttons i {
-    font-size: 3.25rem;
-    margin: 0px 15px;
+    font-size: 2.75rem;
+    margin: 0px 10px;
     color: #ffffff;
 }
 
 .buttons i:hover {
-    color: #00d9ff;
+    color: #b9f2ff;
 }
+
+@media only screen and (max-width: 700px) {
+    .hero h1 {
+        font-size: 5.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+  }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
@@ -115,16 +128,16 @@ body {
     }
 
     .hero h1 {
-        font-size: 6.5rem;
+        font-size: 4.5rem;
     }
 
     .hero h2 {
-        font-size: 3.5rem;
+        font-size: 1.75rem;
         padding-bottom: 50px;
     }
 
     .buttons i {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
 }
